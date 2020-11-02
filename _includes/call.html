@@ -1,0 +1,24 @@
+<div class="call">
+  <div class="call-box-top">
+    {% if site.data.contact.phone %}
+      <span>{{ site.data.contact.phone }}</span>
+    {% endif %}
+    {% if site.data.contact.email %}
+    <span><a href="mailto:{{ .site.Data.contact.email }}"><i class="fas fa-envelope-square fa-2x"></i></a></span>
+    {% endif %}
+    {% if site.data.contact.twitter %}
+    <span><a href="https://twitter.com/{{ .site.Data.contact.twitter }}"><i class="fab fa-twitter-square fa-2x"></i></a></span>
+    {% endif %}
+    {% if site.data.contact.facebook %}
+    <span class="social-top"><a href="https://facebook.com/{{ .site.Data.contact.facebook }}"><i class="fab fa-facebook-square fa-2x"></i></a></span>
+    {% endif %}
+    {% if site.data.contact.medium %}
+    <span class="social-top"><a href="https://medium.com/{{ .site.Data.contact.github }}"><i class="fab fa-medium fa-2x"></i></a></span>
+    {% endif %}
+  </div>
+    {% if include.show_button %}
+      <div class="call-box-bottom">
+        <a href="{{ site.baseurl }}/{{ site.data.contact.contact_button_link }}" class="button">Email</a>
+      </div>
+    {% endif %}
+</div>

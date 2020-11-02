@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Consultoria",
+    "description": "Somos uma organização pioneira em jornalismo orientado por dados no Brasil, e queremos aplicar esse conhecimento para seus projetos de comunicação.",
+    "image": "<i data-vi='message'></i>"
+  },
+  {
+    "title": "Projetos",
+    "description": "Com nosso conhecimento do setor de comunicação, aliado à nossa capacidade técnica, somos a equipe ideal para desenvolver seu projeto de dados.",
+    "image": "<i data-vi='server'></i>"
+  },
+  {
+    "title": "Pesquisas",
+    "description": "Dados são a alma do VOLT DATA LAB. Fazemos levantamentos, estudos, análises e pesquisas em diversas áreas, especialmente no setor de mídia.",
+    "image": "<i data-vi='graph-bar'></i>"
+  }
+]

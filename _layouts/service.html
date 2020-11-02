@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<style>
+.metadata li{
+  list-style-type: none;
+  display: inline-block;
+  font-family: Inconsolata, monospace;
+  margin-right: 12px;
+  text-transform: uppercase
+}
+
+.metadata a{
+  text-decoration: underline
+}
+
+span{
+  color: #386cb0
+}
+
+
+
+</style>
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">{{page.title}}</h1>
+        <ul class="metadata">
+          <li><a href="{{ page.link }}" target="_blank">{{ page.link_tit }}</a> &#8226</li>
+          <li>Lançamento: <span>{{ page.ano_criacao }}</span> &#8226</li>
+          <li>Categoria: <span>{{ page.categoria }}</span></li>
+          </ul>
+        <div class="content">
+          <hr />
+          <br />
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

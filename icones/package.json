@@ -1,0 +1,16 @@
+{
+  "name": "volticons",
+  "version": "1.0.0",
+  "description": "pacote icones adaptados do volt",
+  "main": "index.js",
+  "dependencies": {
+    "build": "^0.1.4",
+    "vivid-icons": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "build"
+  },
+  "author": "",
+  "license": "ISC"
+}

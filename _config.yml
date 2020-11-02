@@ -1,0 +1,38 @@
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Volt Data Lab'
+
+google_analytics_id: ""
+homepage:
+  show_call_box: true
+logo:
+  mobile: "images/logo/volt_cinza_alta.png"
+  desktop: "images/logo/volt_cinza_alta.png"
+  desktop_height: "36px"
+footer:
+  copyright_text: '2020 - São Paulo/SP Brasil. Este website usa Google Analytics.'
+
+seo:
+  meta_og_title: "Volt Data Lab"
+  meta_og_type: "website"
+  meta_og_url: "https://voltdata.info"
+  meta_og_image: ""
+  meta_og_description: "VOLT DATA LAB é uma agência de pesquisas, análises, estudos e consultorias orientada por dados, atendendo principalmente o setor de mídia e comunicação."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@voltdatalab"
+  meta_twitter_creator: "@voltdatalab"
+
+collections:
+  projetos:
+    output: true
+  team:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables

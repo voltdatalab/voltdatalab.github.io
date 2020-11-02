@@ -1,0 +1,21 @@
+main:
+  - name: "Sobre"
+    url: "/sobre/"
+    weight: 1
+  - name: "Contato"
+    url: "/contato/"
+    weight: 2
+  - name: "Equipe"
+    url: "/equipe/"
+    weight: 3
+  - name: "English"
+    url: "/en/"
+    weight: 4
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contato"
+    url: "/contato/"
+    weight: 2

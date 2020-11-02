@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Consulting",
+    "description": "We are a leading firm in data-driven journalism in Brazil, and we can apply that experience to help you and your organization with data-driven projects.",
+    "image": "<i data-vi='message'></i>"
+  },
+  {
+    "title": "Projects",
+    "description": "With our knowledge in the communications sector, alongside our technical capacities, we can develop your data-based project -- like apps, dashboards, databases and knowledge tools.",
+    "image": "<i data-vi='server'></i>"
+  },
+  {
+    "title": "Research",
+    "description": "Data are the hart and soul of VOLT DATA LAB. We do research, studies, analysis and data compilation about several fields, especially the media sector.",
+    "image": "<i data-vi='graph-bar'></i>"
+  }
+]

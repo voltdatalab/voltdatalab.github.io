@@ -24,21 +24,39 @@ span{
 </style>
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="service service-single">
-        <h1 class="title">{{page.title}}</h1>
-        <ul class="metadata">
-          <li><a href="{{ page.link }}" target="_blank">{{ page.link_tit }}</a> &#8226</li>
-          <li>Lançamento: <span>{{ page.ano_criacao }}</span> &#8226</li>
-          <li>Categoria: <span>{{ page.categoria }}</span></li>
-          </ul>
-        <div class="content">
-          <hr />
-          <br />
-          {{content}}
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-12">
+            <div class="service service-single">
+              <h1 class="title">{{page.title}}</h1>
+              <div style="max-width:640px;margin:0 auto;text-align:center">
+              <ul class="metadata">
+                <li><a href="{{ page.link }}" target="_blank">{{ page.link_tit }}</a> &#8226</li>
+                <li>Lançamento: <span>{{ page.ano_criacao }}</span> &#8226</li>
+                <li>Categoria: <span>{{ page.categoria }}</span></li>
+                </ul>
+                </div>
+                <hr />
+                <div class="content">
+                  <br />
+                  {{content}}
+
+                  <hr />
+                  <br />
+                  <h4>VEJA OUTROS PROJETOS</h4>
+                  {% assign portfolio = site.projetos | sort:"weight"  %}
+                  {% for projeto in portfolio limit:3 %}
+                    <div class="service service-summary">
+                      <div class="service-content">
+                        <h5 class="service-title" style="text-transform:uppercase">
+                          <a href="{{site.baseurl}}{{ projeto.url }}">{{ projeto.title }}</a>
+                        </h5>
+                        <h6 class="metadata">Tipo de projeto: <span style="color:#f0027f">{{ projeto.categoria }}</span></h6>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>

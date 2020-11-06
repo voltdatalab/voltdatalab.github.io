@@ -1,7 +1,7 @@
 ---
 title: Team
 layout: teams
-intro_image: "images/illustrations/conference.svg"
+intro_image: ""
 permalink: /equipe/
 intro_image_absolute: true
 intro_image_hide_on_mobile: false

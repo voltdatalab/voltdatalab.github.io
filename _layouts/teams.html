@@ -48,7 +48,7 @@ bodyClass: page-team-list
         {% endfor %}
     </div>
     <br />
-    <h3>COLABORADORES FREQUENTES</h3>
+    <!--<h3>COLABORADORES FREQUENTES</h3>-->
     <div class="row pt-1 pb-6">
         {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
         {% for team in teams %}

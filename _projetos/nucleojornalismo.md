@@ -10,7 +10,7 @@ ano_criacao: 2020
 categoria: "Editorial"
 ---
 
-O _Núcleo_ é um veículo jornalístico fundado em janeiro de 2020 pelo VOLT DATA LAB, com a missão de produzir investigações a partir de dados públicos e trazer mais transparência ao governo, ao debate político e a políticas públicas, em diferentes esferas e localidades.
+O _Núcleo_ é um veículo jornalístico fundado em janeiro de 2020 pelo VOLT DATA LAB com a missão de produzir investigações a partir de dados públicos e trazer mais transparência ao governo, ao debate político e a políticas públicas, em diferentes esferas e localidades.
 
 O trabalho é guiado, principalmente, pelo rigor analítico sobre assuntos importantes, que frequentemente são pouco abordados ou mal explorados pela imprensa em geral.
 

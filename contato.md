@@ -1,7 +1,6 @@
 ---
 title: FALE CONOSCO
 layout: contact
-intro_image: "images/illustrations/map.svg"
 bodyClass: page-contact
 ---
 

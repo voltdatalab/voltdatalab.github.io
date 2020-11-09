@@ -9,8 +9,8 @@ O VOLT DATA LAB possui base em São Paulo, mas todo nosso trabalho é feito remo
 
 | Modo        | contato   |
 | ----------- | --------------- |
-| Email geral | [info@voltata.info](mailto:info@voltdata.info) |
-| Tecnologia  | [tech@voltata.info](mailto:tech@voltdata.info) |
+| Email geral | [info@voltdata.info](mailto:info@voltdata.info) |
+| Tecnologia  | [tech@voltdata.info](mailto:tech@voltdata.info) |
 | Comunidade  | [news@voltdata.info](mailto:news@voltdata.info) |
 | Núcleo      | [nucleo@voltdata.info](mailto:nucleo@voltdata.info) |
 | Whatsapp    | [+55 (11) 93444-1844](https://api.whatsapp.com/send/?phone=5511934441844&text&app_absent=0) |

@@ -6,7 +6,7 @@ promoted: true
 image: "images/team/orrico.png"
 jobtitle: "Editor do Núcleo Jornalismo"
 linkedinurl: "https://www.linkedin.com/in/alexandre-orrico-27249742/"
-weight: 5
+weight: 2
 layout: team
 email: orrico@voltdata.info
 twitter: alexorrico

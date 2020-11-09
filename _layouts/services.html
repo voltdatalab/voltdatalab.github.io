@@ -29,7 +29,7 @@ bodyClass: page-services-list
             <a href="{{site.baseurl}}{{ projeto.url }}">{{ projeto.title }}</a>
           </h2>
           <h4 class="metadata">Tipo de projeto: <span style="color:#f0027f">{{ projeto.categoria }}</span></h4>
-          <p>{{ projeto.content | markdownify | strip_html | truncate: 500 }} <a href="{{site.baseurl}}{{ projeto.url }}">leia mais</a></p>
+          <p>{{ projeto.content | markdownify | strip_html | truncate: 300 }} <a href="{{site.baseurl}}{{ projeto.url }}">leia mais</a></p>
         </div>
       </div>
     </div>

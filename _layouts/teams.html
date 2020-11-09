@@ -33,10 +33,16 @@ bodyClass: page-team-list
                     <h2 class="team-name">{{ team.title }}</h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
                     {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
+                    <a target="_blank" href="{{ team.linkedinurl }}"><i class="fab fa-linkedin fa-lg"></i></a>&nbsp;
+                    {% endif %}
+                    {% if team.twitter %}
+                    <a target="_blank" href="https://twitter.com/{{ team.twitter }}"><i class="fab fa-twitter-square fa-lg"></i></a>&nbsp;
+                    {% endif %}
+                    {% if team.email %}
+                    <a target="_blank" href="https://twitter.com/{{ team.twitter }}"><i class="fas fa-envelope-square fa-lg"></i></a>&nbsp;
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 400 }}</div>
+                <div class="team-content">{{ team.content | truncate: 450 }}</div>
             </div>
         </div>
         {% endfor %}
